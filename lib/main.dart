@@ -28,9 +28,9 @@ class ImageCarouselScreen extends StatefulWidget {
 class _ImageCarouselScreenState extends State<ImageCarouselScreen> {
   CarouselSliderController? carouselController = CarouselSliderController();
   final List<String> imagePaths = [
-    'assets/dd1.png',
-    'assets/ss2.png',
-    'assets/ss3.png',
+    'assets/images/drink1.png',
+    'assets/images/drink2.png',
+    'assets/images/drink3.png',
   ];
   final List<Map<String, String>> details = [
     {
